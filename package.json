@@ -1,0 +1,29 @@
+{
+  "name": "winfred.flake_dashboard",
+  "description": "Flake dashboard",
+  "version": "0.0.0",
+  "author": "winfred",
+  "repository": {
+    "type": "git",
+    "url": "Add github URL here"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@aha-app/aha-cli": "^1.8.1"
+  },
+  "ahaExtension": {
+    "cspSources": [],
+    "contributes": {
+      "views": {
+        "flakeDashboard": {
+          "title": "Flakes",
+          "host": "page",
+          "entryPoint": "src/views/flakeDashboard.js",
+          "location": {
+            "menu": "Work"
+          }
+        }
+      }
+    }
+  }
+}
