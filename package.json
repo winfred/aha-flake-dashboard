@@ -5,7 +5,7 @@
   "author": "winfred",
   "repository": {
     "type": "git",
-    "url": "Add github URL here"
+    "url": "https://github.com/winfred/aha-flake-dashboard"
   },
   "license": "MIT",
   "devDependencies": {
